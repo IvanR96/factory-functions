@@ -14,4 +14,13 @@ function createUser(name){
 
 
 
-User1 = createUser('obsurvr');
+function steamUser(name){
+    let tag = '@' + name;
+
+    return {name , tag};
+}
+
+user = steamUser('obsurvr');
+
+
+console.log(user);
