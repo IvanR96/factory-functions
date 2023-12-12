@@ -24,3 +24,14 @@ user = steamUser('obsurvr');
 
 
 console.log(user);
+
+
+const obj = {a: 1, b: 2};
+// This creates two variables, a and b,
+// which are equivalent to
+// const a = obj.a;
+// const b = obj.b;
+
+const {a, b} = obj;
+
+
