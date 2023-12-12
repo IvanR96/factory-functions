@@ -1,4 +1,4 @@
-
+/*
 //constructor
 const User = function(name){
     this.name = name;
@@ -33,5 +33,24 @@ const obj = {a: 1, b: 2};
 // const b = obj.b;
 
 const {a, b} = obj;
+*/
 
+/*
+function createUser(name){
+    let discordName = '@' + name;
+
+    let reputation = 0;
+    const getReputation = () => reputation;
+    const giveReputation = ()=> reputation++;
+
+    return {name, discordName, getReputation, giveReputation};
+}
+
+const shroud = createUser("Shroud");
+shroud.giveReputation();
+shroud.giveReputation();
+
+
+console.log({discordName: shroud.discordName, reputation: shroud.getReputation()});
+*/
 
